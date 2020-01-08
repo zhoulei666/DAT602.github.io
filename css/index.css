@@ -1,0 +1,45 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: sans-serif;/*no line under text*/
+  font: arial;/*choose the font of title*/
+  font-size: 2.5em;/*size of the title*/
+  text-align: center;
+}
+
+body {
+  background-color: #25ceb6;
+}
+a.button{
+  background-color: #0086d2;
+   border:  none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   font-size: 16px;
+   cursor: pointer;
+   width: 150px;
+   display: block;
+   margin-bottom: 20px;
+   cursor: pointer;
+ -webkit-transition-duration: 0.4s; /* Safari */
+ transition-duration: 0.4s;
+}
+
+a.button{border-radius: 8px;}
+
+a.button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+a.button:hover {
+  background-color: #25ceb6;
+}
+
+a.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}

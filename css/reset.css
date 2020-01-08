@@ -1,0 +1,35 @@
+body, html { font-size: 100%; 	padding: 0; margin: 0;  background-color: #25ceb6;}
+
+h1 {
+  font-family: sans-serif;/*no line under text*/
+  font: arial;/*choose the font of title*/
+  font-size: 2.5em;/*size of the title*/
+  text-align: center;
+}
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+body{
+	background: #494A5F;
+	color: #D5D6E2;
+	font-weight: 500;
+	font-size: 1.05em;
+	font-family: "Microsoft YaHei","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif;
+}
